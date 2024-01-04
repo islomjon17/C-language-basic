@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/turgu/OneDrive/Documents/CSE/C/GIT HUB/C-language-basic-main(1)/C-language-basic-main/9.WHILE LOPP",
+      "program": "c:/Users/turgu/OneDrive/Documents/CSE/C/GIT HUB/C-language-basic-main(1)/C-language-basic-main/9.WHILE LOPP/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
