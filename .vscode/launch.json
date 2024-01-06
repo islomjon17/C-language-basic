@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/turgu/OneDrive/Documents/CSE/C/GIT HUB/C-language-basic-main(1)/C-language-basic-main/9.WHILE LOPP",
-      "program": "c:/Users/turgu/OneDrive/Documents/CSE/C/GIT HUB/C-language-basic-main(1)/C-language-basic-main/9.WHILE LOPP/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
