@@ -3,60 +3,60 @@
 int main()
 {
 
-    // User Input
+    // Foydalanuvchi kiritishi
 
-    // Create an integer variable that will store the number we get from the user
-    int myNum;
+    // Foydalanuvchidan olingan sonni saqlaydigan butun sonli o'zgaruvchi yaratish
+    int meningSonim;
 
-    // Ask the user to type a number
-    printf("Type a number: \n");
+    // Foydalanuvchidan son kiriting degan so'rov
+    printf("Son kiriting: \n");
 
-    // Get and save the number the user types
-    scanf("%d", &myNum);
+    // Foydalanuvchi kiritgan sonni olish va saqlash
+    scanf("%d", &meningSonim);
 
-    // Output the number the user typed
-    printf("Your number is: %d", myNum);
+    // Foydalanuvchi kiritgan sonni chiqarish
+    printf("Sizning soningiz: %d", meningSonim);
 
-    // Multiple Inputs
+    // Ko'p murojatlar
     ////////////////////////////////////////////
-    // Create an int and a char variable
-    int myNum;
-    char myChar;
+    // Butun son va belgini o'z ichiga oladigan o'zgaruvchilar yaratish
+    int menikiSonim;
+    char menikiBelgim;
 
-    // Ask the user to type a number AND a character
-    printf("Type a number AND a character and press enter: \n");
+    // Foydalanuvchidan son VA belgini kiriting degan so'rov
+    printf("Son VA belgi kiriting va enter tugmasini bosing: \n");
 
-    // Get and save the number AND character the user types
-    scanf("%d %c", &myNum, &myChar);
+    // Foydalanuvchi tomonidan kiritilgan son VA belgini olish va saqlash
+    scanf("%d %c", &menikiSonim, &menikiBelgim);
 
-    // Print the number
-    printf("Your number is: %d\n", myNum);
+    // Kiritilgan sonni chiqarish
+    printf("Sizning soningiz: %d\n", menikiSonim);
 
-    // Print the character
-    printf("Your character is: %c\n", myChar);
+    // Kiritilgan belgini chiqarish
+    printf("Sizning belgingiz: %c\n", menikiBelgim);
 
-    // Take String Input
+    // Matn kiritish
     ////////////////////////////////////////////
-    // Create a string
-    char firstName[30];
+    // Matnni saqlaydigan qator o'zgaruvchisi yaratish
+    char ism[30];
 
-    // Ask the user to input some text
-    printf("Enter your first name: \n");
+    // Foydalanuvchidan matn kiriting degan so'rov
+    printf("Ismingizni kiriting: \n");
 
-    // Get and save the text
-    scanf("%s", firstName);
+    // Foydalanuvchi tomonidan kiritilgan matnni olish va saqlash
+    scanf("%s", ism);
 
-    // Output the text
-    printf("Hello %s", firstName);
+    // Kiritilgan matnni chiqarish
+    printf("Salom %s", ism);
 
-    // 2 ta belgi kiritish
+    // Bo'shliq bilan kiritish
     ////////////////////////////////////////////
-    char fullName[30];
+    char toliqIsm[30];
 
-    printf("Type your full name: \n");
-    fgets(fullName, sizeof(fullName), stdin);
+    printf("To'liq ismingizni kiriting: \n");
+    fgets(toliqIsm, sizeof(toliqIsm), stdin);
 
-    printf("Hello %s", fullName);
+    printf("Salom %s", toliqIsm);
     ////////////////////////////////////////////
 
     ////////////////////////////////////////////
