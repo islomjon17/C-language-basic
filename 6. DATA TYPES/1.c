@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    // Create variables
-    int myNum = 5;            // Integer (whole number)
-    float myFloatNum = 5.99;  // Floating point number
-    char myLetter = 'D';      // Character
+    // O'zgaruvchilarni yaratish
+    int myNum = 5;            // Butun son
+    float myFloatNum = 5.99;  // O'ngli son
+    char myLetter = 'D';      // Harf
 
-    // Print variables
+    // O'zgaruvchilarni chiqarish
     printf("%d\n", myNum);
     printf("%f\n", myFloatNum);
     printf("%c\n", myLetter);

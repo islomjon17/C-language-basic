@@ -1,34 +1,34 @@
 #include <stdio.h>
 
 int main() {
-    int day;
-    printf("Enter day of the week (1-7): ");
-    scanf("%d", &day);
+    int kun;
+    printf("Haftaning kunini kiriting (1-7): ");
+    scanf("%d", &kun);
 
-    switch (day) {
+    switch (kun) {
         case 1:
-            printf("Monday\n");
+            printf("Dushanba\n");
             break;
         case 2:
-            printf("Tuesday\n");
+            printf("Seshanba\n");
             break;
         case 3:
-            printf("Wednesday\n");
+            printf("Chorshanba\n");
             break;
         case 4:
-            printf("Thursday\n");
+            printf("Payshanba\n");
             break;
         case 5:
-            printf("Friday\n");
+            printf("Juma\n");
             break;
         case 6:
-            printf("Saturday\n");
+            printf("Shanba\n");
             break;
         case 7:
-            printf("Sunday\n");
+            printf("Yakshanba\n");
             break;
         default:
-            printf("Invalid day\n");
+            printf("Noto'g'ri kun\n");
             break;
     }
 

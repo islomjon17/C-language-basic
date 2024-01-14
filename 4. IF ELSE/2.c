@@ -4,9 +4,9 @@ int main() {
 
     int t = 22;
     if (t < 18) {
-        printf("Good day.\n");
+        printf("Hayrli kun.\n");
     } else {
-        printf("Good evening.\n");
+        printf("Hayrli kech.\n");
     }
 
     int cond1 = 5;
@@ -14,29 +14,29 @@ int main() {
     int cond3 = 15;
 
     if (cond1 > cond2) {
-        // block of code to be executed if cond1 is true
+        // cond1 to'g'ri bo'lganda bajariladigan koda bloki
     } else if (cond2 < cond3) {
-        // block of code to be executed if cond1 is false and cond2 is true
+        // cond1 to'g'ri bo'lmagan va cond2 to'g'ri bo'lganda bajariladigan koda bloki
     } else {
-        // block of code to be executed if both cond1 and cond2 are false
+        // cond1 va cond2 ham to'g'ri bo'lmagan holda bajariladigan koda bloki
     }
 
     int code = 2468;
 
     if (code == 2468) {
-        printf("Correct code.\nThe door is now open.\n");
+        printf("To'g'ri kod.\nDarhol ochiq.\n");
     } else {
-        printf("Wrong code.\nThe door remains closed.\n");
+        printf("Noto'g'ri kod.\nDarvoza ochiq emas.\n");
     }
 
-    int num = -5; // Change the number to test
+    int num = -5; // Sinov uchun sonni o'zgartiring
 
     if (num > 0) {
-        printf("The value is a positive number.\n");
+        printf("Qiymat musbat son.\n");
     } else if (num < 0) {
-        printf("The value is a negative number.\n");
+        printf("Qiymat manfiy son.\n");
     } else {
-        printf("The value is 0.\n");
+        printf("Qiymat 0.\n");
     }
 
     return 0;

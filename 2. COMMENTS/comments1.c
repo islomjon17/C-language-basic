@@ -1,14 +1,12 @@
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     // This is a single-line comment
-//     printf("Hello, world!"); // This comment follows code on the same line
-//     return 0;
+int main() {
+    // Bir qatorli komentariyalar uchun
+    printf("Hello, world!"); // Kodning davmidan ham yozib ketsa bo'ladi
+    return 0;
 
-//     // andasidjasuhd
-// }
-
-
+    // andasidjasuhd
+}
 
 
 
@@ -30,20 +28,22 @@
 
 
 
-// #include <stdio.h>
 
-// int main() {
-//     /*
-//     This is a multi-line comment.
-//     It can span multiple lines.
-//     Useful for commenting out sections of code:
+
+#include <stdio.h>
+
+int main() {
+    /*
+    Bu ko'p qatorli sharh.
+    U bir nechta qatorlarni qamrab olishi mumkin.
+    Kod bo'limlarini sharhlash uchun foydalidir:
     
-//     printf("This line won't be executed.\n");
-//     */
+    printf("Ushbu qator bajarilmaydi.\n");F
+    */
     
-//     printf("Hello, world!"); // This line will be executed
-//     return 0;
-// }
+    printf("Hello, world!"); 
+    return 0;
+}
 
 
 

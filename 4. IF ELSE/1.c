@@ -5,18 +5,18 @@ int main() {
     int b = 15;
 
     if (a > 18) {
-        printf("a is greater than 18\n");
+        printf("a 18 dan katta\n");
     }
 
     int x = 30;
     int y = 22;
     if (x > y) {
-        printf("x is greater than y\n");
+        printf("x y dan katta\n");
 
         if (x % 2 == 0) {
-            printf("x is even\n");
+            printf("x juft son\n");
         } else {
-            printf("x is odd\n");
+            printf("x toq son\n");
         }
     }
 

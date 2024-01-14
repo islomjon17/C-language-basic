@@ -4,28 +4,28 @@ int main() {
 
     int currentTime = 20;
 
-    // Checking if it's morning, afternoon, or evening based on time
+    // Vaqtni tekshirib, ertalab, kunorta yoki kechqurun ekanligini aniqlash
     if (currentTime < 12) {
-        printf("Good morning.\n");
+        printf("Xayrli tong.\n");
     } else if (currentTime < 18) {
-        printf("Good afternoon.\n");
+        printf("Xayrli kunorta.\n");
     } else {
-        printf("Good evening.\n");
+        printf("Xayrli kechqurun.\n");
     }
 
-    // Using a ternary operator to check if a number is even or odd
+    // Sonning juft yoki toq ekanligini tekshirish uchun ternary operatoridan foydalanish
     int number = 27;
-    (number % 2 == 0) ? printf("The number is even.\n") : printf("The number is odd.\n");
+    (number % 2 == 0) ? printf("Son juft.\n") : printf("Son toq.\n");
 
-    // Checking if a given year is a leap year or not
+    // Berilgan yilning kabisa yili yoki emasligini tekshirish
     int year = 2024;
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-        printf("%d is a leap year.\n", year);
+        printf("%d - kabisa yili.\n", year);
     } else {
-        printf("%d is not a leap year.\n", year);
+        printf("%d - kabisa yili emas.\n", year);
     }
 
-    // Checking if a character is a vowel or consonant
+    // Harfin so'zga yoki undan tashqari harf ekanligini tekshirish
     char ch = 'e';
     switch (ch) {
         case 'a':
@@ -33,10 +33,10 @@ int main() {
         case 'i':
         case 'o':
         case 'u':
-            printf("%c is a vowel.\n", ch);
+            printf("%c - undosh harf.\n", ch);
             break;
         default:
-            printf("%c is a consonant.\n", ch);
+            printf("%c - undosh harf emas.\n", ch);
             break;
     }
 
