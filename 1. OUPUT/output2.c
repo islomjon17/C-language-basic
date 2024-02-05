@@ -4,7 +4,7 @@ int main() {
     printf("Yillar armoni\n\n"
            "Kimgadir yaxshi gap aytdik, birodar,\n"
            "Kimdir bir umrga ranjib ham ketdi.\n"
-           "Kun kecha yosh dwerdik o'zni bir qadar,\n"
+           "Kun kecha yosh derdik o'zni bir qadar,\n"
            "Bugun-chi balog'at yoshi ham yetdi.\n"
            "Inson o'z umrini o'ylasa ko'p vaqt\n"
            "Qiynaydi o'zidan o'tgan qusurlar.\n"

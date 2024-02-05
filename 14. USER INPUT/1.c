@@ -49,17 +49,5 @@ int main()
     // Kiritilgan matnni chiqarish
     printf("Salom %s", ism);
 
-    // Bo'shliq bilan kiritish
-    ////////////////////////////////////////////
-    char toliqIsm[30];
-
-    printf("To'liq ismingizni kiriting: \n");
-    fgets(toliqIsm, sizeof(toliqIsm), stdin);
-
-    printf("Salom %s", toliqIsm);
-    ////////////////////////////////////////////
-
-    ////////////////////////////////////////////
-
     return 0;
 }
