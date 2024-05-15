@@ -184,10 +184,18 @@ int main(){
 // }
 
 // ----------------------------------------------------------------
+// 14
+#define PI 3.14159265358979323846
 
+double L, R, S;
+printf("Enter the circumference of the circle: ");
+scanf("%lf", &L);
+R = L / (2 * PI);
+S = PI * R * R;
+printf("Radius of the circle (R): %.2lf\n", R);
+printf("Area of the circle (S): %.2lf\n", S);
 
-
-// 
+// 15
 
 
 
