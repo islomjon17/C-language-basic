@@ -105,6 +105,24 @@ import math
 
 
 
-## 
+## 17
 
+# def calculate_sum_of_lengths(x_A, x_B, x_C):
+#     # Calculate lengths
+#     AC = abs(x_A - x_C)
+#     BC = abs(x_B - x_C)
+    
+#     # Calculate the sum of lengths
+#     sum_of_lengths = AC + BC
+    
+#     return sum_of_lengths
+
+# # Input positions of points A, B, C
+# x_A = float(input("Enter the position of point A: "))
+# x_B = float(input("Enter the position of point B: "))
+# x_C = float(input("Enter the position of point C: "))
+
+# # Calculate and print the sum of the lengths
+# sum_of_lengths = calculate_sum_of_lengths(x_A, x_B, x_C)
+# print(f"The sum of the lengths AC and BC is: {sum_of_lengths}")
 

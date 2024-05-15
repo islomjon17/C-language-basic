@@ -219,7 +219,19 @@ int main(){
 // printf("Distance %lf", distance);
 
 
-// 
+// 17
+// double A,B,C, AC, BC,  ABC;
+// A = printf("A uchun qiymat kiriting:>>> ");
+// scanf("%lf", &A);
+// B = printf("B uchun qiymat kiriting:>>> ");
+// scanf("%lf", &B);
+// C = printf("C uchun qiymat kiriting:>>> ");
+// scanf("%lf", &C);
+// AC = fabs(A - C);
+// BC = fabs(B - C);
+// ABC = AC + BC;
+// printf("%lf, %lf, %lf", AC, BC, ABC);
+
 
 
 
