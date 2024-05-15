@@ -166,10 +166,22 @@ int main(){
 
 
 // 13
-
-
-
-
+// int r1, r2;
+// float pi, s1, s2, s3;
+// pi = 3.14;
+// printf("r1 va r2 uchun qiymat kiriting(r1, r2dan katta bo'lishi kerak: ):>> ");
+// scanf("%d", &r1);
+// printf("r2 uchun:>> ");
+// scanf("%d", &r2);
+// if (r1<r2){
+//     printf("r1, r2 dan kichkina: Qaytadan sinab ko'ring.");
+// }
+// else {
+//     s1 = pi*r1;
+//     s2 = pi*r2;
+//     s3 = pi*(r1-r2);
+//     printf("S1 = %f, S2 = %f, S3 = %f", s1, s2, s3);
+// }
 
 // ----------------------------------------------------------------
 
