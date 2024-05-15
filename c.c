@@ -153,11 +153,20 @@ int main(){
 
 
 
-// 
+// 12
+
+// int a,b, c,P;
+// printf("a uchun qiymat kiriting>> ");
+// scanf("%d", &a);
+// printf("b uchun qiymat kiriting>> ");
+// scanf("%d", &b);
+// c = sqrt(pow(a,2)+pow(b,2));
+// P = a + b + c;
+// printf("c=%d, P=%d", c, P);
 
 
+// 13
 
-// 
 
 
 
