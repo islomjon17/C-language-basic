@@ -238,24 +238,47 @@ int main(){
 
 
 // 18
-    int A[2] = {0, 0};     // Point A at (0, 0)
-    int B[2] = {10, 0};    // Point B at (d, 0) with d = 10 (replace with your actual value)
-    int C[2] = {6, 0};     // Point C at (x, 0) with x = 6 (replace with your actual value)
+    // int A[2] = {0, 0};     // Point A at (0, 0)
+    // int B[2] = {10, 0};    // Point B at (d, 0) with d = 10 (replace with your actual value)
+    // int C[2] = {6, 0};     // Point C at (x, 0) with x = 6 (replace with your actual value)
 
-    int x_A = A[0];
-    int x_B = B[0];
-    int x_C = C[0];
+    // int x_A = A[0];
+    // int x_B = B[0];
+    // int x_C = C[0];
 
-    int AC = abs(x_C - x_A);
-    int BC = abs(x_B - x_C);
+    // int AC = abs(x_C - x_A);
+    // int BC = abs(x_B - x_C);
 
-    int product = AC * BC;
+    // int product = AC * BC;
 
-    printf("The product of the lengths of segments AC and BC is: %d\n", product);
+    // printf("The product of the lengths of segments AC and BC is: %d\n", product);
 
 
 
-//
+// 19
+// double x1, x2, y1, y2, length, width, perimeter, area;
+// printf("x1 uchun qiymat kiriting:>  ");
+// scanf("%lf", &x1);
+
+// printf("x2 uchun qiymat kiriting:>  ");
+// scanf("%lf", &x2);
+
+// printf("y1 uchun qiymat kiriting:>  ");
+// scanf("%lf", &y1);
+
+// printf("y2 uchun qiymat kiriting:>  ");
+// scanf("%lf", &y2);
+
+// length = fabs(x1 - x2);
+// width = fabs(y1 - y2);
+
+// perimeter = 2 * (length + width);
+// area = length * width;
+// printf("Perimeter of the rectangle: %lf\n", perimeter);
+// printf("Surface area of the rectangle: %lf", area);
+
+
+
 
 
 

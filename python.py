@@ -126,3 +126,19 @@ import math
 # sum_of_lengths = calculate_sum_of_lengths(x_A, x_B, x_C)
 # print(f"The sum of the lengths AC and BC is: {sum_of_lengths}")
 
+## 18
+
+
+## 19
+
+# x1, y1 = 2, 3
+# x2, y2 = 6, 7
+
+# length = abs(x2 - x1)
+# width = abs(y2 - y1)
+
+# perimeter = 2 * (length + width)
+# area = length * width
+
+# print("Perimeter of the rectangle:", perimeter)
+# print("Surface area of the rectangle:", area)
