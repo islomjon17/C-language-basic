@@ -237,11 +237,121 @@ int main(){
 
 
 
+// 18
+    int A[2] = {0, 0};     // Point A at (0, 0)
+    int B[2] = {10, 0};    // Point B at (d, 0) with d = 10 (replace with your actual value)
+    int C[2] = {6, 0};     // Point C at (x, 0) with x = 6 (replace with your actual value)
+
+    int x_A = A[0];
+    int x_B = B[0];
+    int x_C = C[0];
+
+    int AC = abs(x_C - x_A);
+    int BC = abs(x_B - x_C);
+
+    int product = AC * BC;
+
+    printf("The product of the lengths of segments AC and BC is: %d\n", product);
+
+
+
 //
 
 
 
-///
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
+
+
+
+//
 
 
 
