@@ -187,22 +187,36 @@ int main(){
 // 14
 #define PI 3.14159265358979323846
 
-double L, R, S;
-printf("Enter the circumference of the circle: ");
-scanf("%lf", &L);
-R = L / (2 * PI);
-S = PI * R * R;
-printf("Radius of the circle (R): %.2lf\n", R);
-printf("Area of the circle (S): %.2lf\n", S);
+// double L, R, S;
+// printf("Enter the circumference of the circle: ");
+// scanf("%lf", &L);
+// R = L / (2 * PI);
+// S = PI * R * R;
+// printf("Radius of the circle (R): %.2lf\n", R);
+// printf("Area of the circle (S): %.2lf\n", S);
 
 // 15
+// double L, R, D, S;
+// printf("Enter the circumference of the circle: ");
+// scanf("%lf", &L);
+// R = L / (2 * PI);
+// D = 2 * R;
+// S = PI * R * R;
+// printf("Radius of the circle (R): %.2lf\n", R);
+// printf("Diameter of the circle (D): %.2lf\n", D);
+// printf("Area of the circle (S): %.2lf\n", S);
 
 
 
+// 16
 
-// 
-
-
+// double x1,x2, distance;
+// x1 = printf("x1 uchun qiymat kiriting:>>> ");
+// scanf("%lf", &x1);
+// x2 = printf("x2 uchun qiymat kiriting:>>> ");
+// scanf("%lf", &x2);
+// distance = fabs(x1 - x2);
+// printf("Distance %lf", distance);
 
 
 // 
